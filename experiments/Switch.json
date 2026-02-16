@@ -1,0 +1,25 @@
+{
+    "scheduling-policy": "FIFO",
+    "endpoint-delay": 10,
+    "active-chunks-per-dimension": 1,
+    "preferred-dataset-splits": 4,
+    "all-reduce-implementation": [
+        "ring"
+    ],
+    "all-gather-implementation": [
+        "ring"
+    ],
+    "reduce-scatter-implementation": [
+        "ring"
+    ],
+    "all-to-all-implementation": [
+        "ring"
+    ],
+    "collective-optimization": "localBWAware",
+    "local-mem-bw": 19,
+    "peak-perf": 3,
+    "boost-mode": 0,
+    "roofline-enabled": 1,
+    "trace-enabled": 1,
+    "trace-path": "traces/"
+}
